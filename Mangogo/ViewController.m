@@ -26,7 +26,6 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
-
     [MGTaskPool registerNetworkMediatorWithName:NSStringFromClass(UserCenterNetworkServiceMediator.class)];
     [[MGTaskPool shareInstance] addDelegate:self];
     [[MGTaskPool shareInstance] doServiceWithName:SERVICENAME_KYSON_INDEX params:nil];
