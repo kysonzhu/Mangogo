@@ -34,7 +34,6 @@
 
 
 -(void)taskpool:(MGTaskPool *) pool serviceFinished:(id )service response:(MGServiceResponse *) response {
-    NSLog(@"--- response %@",response);
     
 }
 
