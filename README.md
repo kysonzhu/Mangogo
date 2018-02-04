@@ -34,7 +34,7 @@ and you can get response by
 
 
 ## Detail Useage
-
+see demo
 
 ## Discussion
 You can add comments here : [高解耦的网络请求框架Mangogo](http://kyson.cn/index.php/archives/28/)
