@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'Mangogo'
-s.version = '1.0.1'
+s.version = '1.0.2'
 s.license = 'MIT'
 s.summary = 'A light-weight network framework based on service for iOS.'
 s.homepage = 'https://github.com/kysonzhu/Mangogo'

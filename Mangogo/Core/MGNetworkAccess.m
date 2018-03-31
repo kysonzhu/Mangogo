@@ -91,7 +91,7 @@
         case RequestTypeGet:{
             if (params.allKeys.count > 0)
             {
-                requestURL = [requestURL stringByAppendingString:@"&"];
+                requestURL = [requestURL stringByAppendingString:@"?"];
                 for (NSInteger index = 0; index < params.allKeys.count; ++ index)
                 {
                     NSString *paramsKey = params.allKeys[index];
